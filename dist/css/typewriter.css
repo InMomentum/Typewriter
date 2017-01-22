@@ -1,0 +1,17 @@
+.typewriter-cursor {
+    border-right: 1px solid #000;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink", @-moz-keyframes blink, @-webkit-keyframes "blink", @-ms-keyframes "blink", @-o-keyframes "blink" {
+    from, to {
+        visibility: visible;
+    }
+    50% {
+        visibility: hidden;
+    }
+}
